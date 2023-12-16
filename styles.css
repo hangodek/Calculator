@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 30%;
+}
+
+.last-number, .curent-number {
+    padding-right: 20px;
+    align-self: flex-end;
+}
+
+.curent-number {
+    font-size: 25px;
+}
+
+/* */
+
+.button {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    width: 30%;
+}
+
+.button div {
+    width: 60px;
+}
+
+.button div button {
+    font-size: 25px;
+    width: 50px;
+}
+
+
